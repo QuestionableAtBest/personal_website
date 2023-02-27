@@ -14,14 +14,11 @@ a{
 header,footer{
     background-color: rgb(107, 62, 107);
     display:flex;
-    padding-left: 40%;
-    flex-direction: column;
     justify-content: center;
-}
+    flex-wrap: wrap;
+} 
 
-main{
-    display: grid;
-}
-nav{
-    padding-left: 15%;
+.navItem{
+    padding:10px;
+    flex-grow: 1;
 }
