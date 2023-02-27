@@ -22,3 +22,12 @@ header,footer{
     padding:10px;
     flex-grow: 1;
 }
+
+.AbMeEssay{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.AbMeItem{
+    padding:10px;
+}
