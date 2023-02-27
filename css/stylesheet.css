@@ -1,20 +1,27 @@
 body{
-    background-color: #142D4C
-}
-
-body{
-    color:#ECECEC
+    background-color: #142D4C;
+    color:#ECECEC;
 }
 
 #indexHead{
     font-family: 'Montserrat', sans-serif;
 }
 
-.hnav{
-    background-color: rgb(107, 62, 107);
-    text-align: center;
-}
-
 a{
     color:aqua
+}
+
+header,footer{
+    background-color: rgb(107, 62, 107);
+    display:flex;
+    padding-left: 40%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+}
+nav{
+    padding-left: 15%;
 }
