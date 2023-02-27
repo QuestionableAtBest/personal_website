@@ -18,9 +18,8 @@ header,footer{
     flex-wrap: wrap;
 } 
 
-.navItem{
+.hItem{
     padding:10px;
-    flex-grow: 1;
 }
 
 .AbMeEssay{
@@ -31,3 +30,4 @@ header,footer{
 .AbMeItem{
     padding:10px;
 }
+
