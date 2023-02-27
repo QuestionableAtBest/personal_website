@@ -6,9 +6,10 @@ body{
     color:#ECECEC
 }
 
-h1{
+#indexHead{
     font-family: 'Montserrat', sans-serif;
 }
+
 .hnav{
     background-color: rgb(107, 62, 107);
     text-align: center;
