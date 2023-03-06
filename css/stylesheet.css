@@ -15,6 +15,7 @@ header,footer{
     background-color: rgb(107, 62, 107);
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
 } 
 
 header h1,nav{
@@ -28,12 +29,13 @@ nav{
     gap: 50px;
 }
 
-.AbMeEssay{
+section{
     display:grid;
     grid-template-columns: 4fr 1fr;
 }
 
-.AbMeItem{
+section p{
     padding:10px;
 }
+
 
