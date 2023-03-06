@@ -14,12 +14,18 @@ a{
 header,footer{
     background-color: rgb(107, 62, 107);
     display:flex;
-    justify-content: center;
     flex-wrap: wrap;
 } 
 
-.hItem{
-    padding:10px;
+header h1,nav{
+    display:flex;
+    justify-content: center;
+    flex-grow:1;
+    width: 100%;
+}
+
+nav{
+    gap: 50px;
 }
 
 .AbMeEssay{
