@@ -16,43 +16,66 @@ header,footer{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
+    width:100%;
 } 
 
 header h1,nav{
     display:flex;
     justify-content: center;
-    flex-grow:1;
     width: 100%;
 }
 
 nav{
-    gap: 50px;
+    gap: 10px;
 }
 
 section{
     display:grid;
     grid-template-columns: 4fr 1fr;
+    border-bottom: 1px solid gray;
 }
 
 section p{
     padding:10px;
 }
 
-@media(max-width:600px){
-    nav{
-        flex-direction: column;
-        align-items: center;
+.courses ul li{
+    list-style-type:none;
+    border-bottom: 1px solid gray;
+}
+
+.courses header nav{
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses ul{
+    display:flex;
+    padding-left: 10px;
+    width:100%;
+    flex-wrap:wrap;
+    flex-shrink:1;
+}
+
+.courses ul li{
+    flex-direction: column;
+}
+
+
+@media(min-width:600px){
+    .courses header nav{
+        flex-direction:row;
     }
-    body{
-        /* display:flex; */
+    
+    .courses ul li{
         display:grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 2fr;
         gap:15px;
     }
-    nav a{
-        /* padding-left:15px;
-        padding-right:15px; */
 
+    .courseDesc{
+        grid-column:2/4;
     }
 }
+
 
