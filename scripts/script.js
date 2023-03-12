@@ -36,3 +36,22 @@ const math1310 = {
 
 let courseList = [acit1620,acit1515,acit1630,acit1420,orgb1100,comm1116,math1310]
 
+let userPrompt = "";
+do{
+    userPrompt = prompt("Enter a 4-digit course number: ")
+}while(userPrompt.length != 4) 
+
+let add = true
+for(let i = 0; i < courseList.length; i++){
+    if(courseList[i].code.includes(userPrompt)){
+        console.log(`Yes I am taking the course: ${courseList[i].code} - ${courseList[i].name}`)
+        add = false
+    }
+}
+if(add){
+    let course = {
+        code: userPrompt,
+        name: undefined
+    }
+    courseList.push(course)
+}
